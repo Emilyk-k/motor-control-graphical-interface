@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextDatabase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="texts.xsd" Version="4.26.0">
+  <Languages>
+    <Language Id="GB" />
+  </Languages>
+  <Texts>
+    <TextGroup Id="Group1" />
+    <TextGroup Id="Unsorted">
+      <Text Id="__SingleUse_P24I" Alignment="Right" TypographyId="Default">
+        <Translation Language="GB">&lt;&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_42GY" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">&lt;&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_RLGS" Alignment="Center" TypographyId="Default">
+        <Translation Language="GB">Show</Translation>
+      </Text>
+      <Text Id="__SingleUse_K18G" Alignment="Center" TypographyId="Default">
+        <Translation Language="GB">Hide</Translation>
+      </Text>
+      <Text Id="__SingleUse_C2G5" Alignment="Right" TypographyId="Default">
+        <Translation Language="GB">&lt;&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_VTV4" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">&lt;&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_3YM2" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">192.168.100.100</Translation>
+      </Text>
+      <Text Id="__SingleUse_B0XF" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">IP address: &lt;value&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_HXS8" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">Fetching...</Translation>
+      </Text>
+      <Text Id="__SingleUse_U0O9" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">&lt;value&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_H5LZ" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">0</Translation>
+      </Text>
+      <Text Id="__SingleUse_4PCD" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">P gain: &lt;value&gt; </Translation>
+      </Text>
+      <Text Id="__SingleUse_DXLK" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">0</Translation>
+      </Text>
+      <Text Id="__SingleUse_UV2L" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">I gain: &lt;value&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_ZNJU" Alignment="Center" TypographyId="Default">
+        <Translation Language="GB">STOP</Translation>
+      </Text>
+      <Text Id="__SingleUse_VJTO" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">Waiting..</Translation>
+      </Text>
+      <Text Id="__SingleUse_6QM0" Alignment="Center" TypographyId="Default">
+        <Translation Language="GB">START</Translation>
+      </Text>
+      <Text Id="__SingleUse_PBSH" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">&lt;value&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_P7SW" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">Torque: &lt;value&gt; Nm</Translation>
+      </Text>
+      <Text Id="__SingleUse_CXOS" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">0</Translation>
+      </Text>
+      <Text Id="__SingleUse_P4HK" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">Speed: &lt;value&gt; rad/s</Translation>
+      </Text>
+      <Text Id="__SingleUse_Y3B0" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">Current: &lt;value&gt; A</Translation>
+      </Text>
+    </TextGroup>
+  </Texts>
+  <Typographies>
+    <Typography Id="Default" Font="verdana.ttf" Size="20" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" WildcardCharacters="-" WidgetWildcardCharacters="-., 0123456789" WildcardCharacterRanges="0-9,A-Z,a-z" />
+    <Typography Id="Large" Font="verdana.ttf" Size="40" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" />
+    <Typography Id="Small" Font="verdana.ttf" Size="10" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" />
+    <Typography Id="Typography1" Font="verdana.ttf" Size="20" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" />
+  </Typographies>
+</TextDatabase>

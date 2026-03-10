@@ -1,0 +1,1357 @@
+{
+  "Application": {
+    "Screens": [
+      {
+        "Name": "Screen1",
+        "CanvasBufferSize": 7200,
+        "Components": [
+          {
+            "Type": "ScalableImage",
+            "Name": "background",
+            "Width": 480,
+            "Height": 272,
+            "Filename": "background.png",
+            "ScalingAlgorithm": "Nearest-neighbor"
+          },
+          {
+            "Type": "SwipeContainer",
+            "Name": "swipeContainerMain",
+            "Width": 480,
+            "Height": 272,
+            "SwipeCutoff": 50,
+            "ShowPageIndicator": true,
+            "PageIndicatorX": 190,
+            "CenteredX": true,
+            "IndicatorImageNormal": "__generated\\alternate_theme_images_widgets_swipecontainer_medium_off_normal.png",
+            "IndicatorImageHighlight": "__generated\\alternate_theme_images_widgets_swipecontainer_medium_on_dark.png",
+            "SelectedPage": "Home",
+            "Components": [
+              {
+                "Type": "Container",
+                "Name": "Home",
+                "Width": 480,
+                "Height": 272,
+                "Components": [
+                  {
+                    "Type": "TextArea",
+                    "Name": "torqueText",
+                    "X": 21,
+                    "Y": 187,
+                    "Width": 225,
+                    "Height": 24,
+                    "TextId": "__SingleUse_P7SW",
+                    "TextRotation": "0",
+                    "Wildcard1": {
+                      "UseBuffer": true,
+                      "BufferSize": 12
+                    }
+                  },
+                  {
+                    "Type": "TextArea",
+                    "Name": "speedText",
+                    "X": 21,
+                    "Y": 77,
+                    "Width": 225,
+                    "Height": 24,
+                    "TextId": "__SingleUse_P4HK",
+                    "TextRotation": "0",
+                    "Wildcard1": {
+                      "TextId": "__SingleUse_CXOS",
+                      "UseBuffer": true,
+                      "BufferSize": 12
+                    }
+                  },
+                  {
+                    "Type": "RepeatButton",
+                    "Name": "speedDOWN",
+                    "X": 217,
+                    "Y": 172,
+                    "Width": 100,
+                    "Height": 36,
+                    "Pressed": "__generated\\alternate_theme_images_widgets_button_regular_height_36_tiny_rounded_pressed.png",
+                    "Released": "__generated\\alternate_theme_images_widgets_button_regular_height_36_tiny_rounded_normal.png",
+                    "Delay": 350,
+                    "Interval": 80,
+                    "Preset": "alternate_theme\\presets\\button\\regular\\height_36\\tiny_rounded_normal.json"
+                  },
+                  {
+                    "Type": "RepeatButton",
+                    "Name": "speedUP",
+                    "X": 217,
+                    "Y": 130,
+                    "Width": 100,
+                    "Height": 36,
+                    "Pressed": "__generated\\alternate_theme_images_widgets_button_regular_height_36_tiny_rounded_pressed.png",
+                    "Released": "__generated\\alternate_theme_images_widgets_button_regular_height_36_tiny_rounded_normal.png",
+                    "Delay": 350,
+                    "Interval": 80,
+                    "Preset": "alternate_theme\\presets\\button\\regular\\height_36\\tiny_rounded_normal.json"
+                  },
+                  {
+                    "Type": "Line",
+                    "Name": "line1_3",
+                    "X": 262,
+                    "Y": 172,
+                    "Width": 55,
+                    "Height": 36,
+                    "StartX": 5.0,
+                    "StartY": 30.0,
+                    "EndX": 50.0,
+                    "EndY": 5.0,
+                    "LineWidth": 5.0,
+                    "LineEndingStyle": "Round"
+                  },
+                  {
+                    "Type": "Line",
+                    "Name": "line1_2",
+                    "X": 262,
+                    "Y": 130,
+                    "Width": 55,
+                    "Height": 36,
+                    "StartX": 5.0,
+                    "StartY": 5.0,
+                    "EndX": 50.0,
+                    "EndY": 30.0,
+                    "LineWidth": 5.0,
+                    "LineEndingStyle": "Round"
+                  },
+                  {
+                    "Type": "Line",
+                    "Name": "line1_1_3",
+                    "X": 217,
+                    "Y": 130,
+                    "Width": 55,
+                    "Height": 36,
+                    "StartX": 5.0,
+                    "StartY": 30.0,
+                    "EndX": 50.0,
+                    "EndY": 5.0,
+                    "LineWidth": 5.0,
+                    "LineEndingStyle": "Round"
+                  },
+                  {
+                    "Type": "Line",
+                    "Name": "line1_1_1_1",
+                    "X": 217,
+                    "Y": 172,
+                    "Width": 55,
+                    "Height": 36,
+                    "StartX": 5.0,
+                    "StartY": 5.0,
+                    "EndX": 50.0,
+                    "EndY": 30.0,
+                    "LineWidth": 5.0,
+                    "LineEndingStyle": "Round"
+                  },
+                  {
+                    "Type": "TextArea",
+                    "Name": "currentText",
+                    "X": 21,
+                    "Y": 133,
+                    "Width": 225,
+                    "Height": 24,
+                    "TextId": "__SingleUse_Y3B0",
+                    "TextRotation": "0",
+                    "Wildcard1": {
+                      "UseBuffer": true,
+                      "BufferSize": 12
+                    }
+                  },
+                  {
+                    "Type": "ButtonWithLabel",
+                    "Name": "startBtn",
+                    "X": 391,
+                    "Y": 132,
+                    "Width": 89,
+                    "Height": 41,
+                    "Pressed": "startBtnPressed.png",
+                    "Released": "startBtn.png",
+                    "TextId": "__SingleUse_6QM0",
+                    "ReleasedColor": {
+                      "Red": 255,
+                      "Green": 255,
+                      "Blue": 255
+                    },
+                    "PressedColor": {
+                      "Red": 255,
+                      "Green": 255,
+                      "Blue": 255
+                    },
+                    "TextRotation": "0"
+                  },
+                  {
+                    "Type": "Slider",
+                    "Name": "speedSlider",
+                    "X": 217,
+                    "Y": 73,
+                    "Width": 232,
+                    "Height": 32,
+                    "IsHorizontalSlider": true,
+                    "BackgroundUnselected": "__generated\\alternate_theme_images_widgets_slider_horizontal_thick_track_small.png",
+                    "BackgroundSelected": "__generated\\alternate_theme_images_widgets_slider_horizontal_thick_filler_small.png",
+                    "Indicator": "__generated\\alternate_theme_images_widgets_slider_horizontal_thick_round_active.png",
+                    "BackgroundX": 16,
+                    "BackgroundY": 11,
+                    "IndicatorMax": 200,
+                    "ValueMax": 1000,
+                    "Preset": "alternate_theme\\presets\\slider\\horizontal\\thick\\small_round_active.json"
+                  }
+                ]
+              },
+              {
+                "Type": "Container",
+                "Name": "Graphs",
+                "Width": 480,
+                "Height": 272,
+                "Components": [
+                  {
+                    "Type": "DynamicGraph",
+                    "Name": "graphCurrent2",
+                    "Y": 14,
+                    "Width": 327,
+                    "Height": 263,
+                    "Visible": false,
+                    "DataSeed": 1219036542,
+                    "NumberOfValues": 100,
+                    "MaxY": 100.0,
+                    "MinY": -100.0,
+                    "Precision": "0.01",
+                    "LastIndex": 99,
+                    "XAxisScale": 1.0,
+                    "LabelSizeBottom": 28,
+                    "LabelSizeLeft": 49,
+                    "LabelSizeRight": 17,
+                    "PaddingTop": 10,
+                    "GraphType": "GraphScroll",
+                    "GraphDrawers": [
+                      {
+                        "Type": "LineDrawer",
+                        "LineWidth": 2,
+                        "FileNameImage": "",
+                        "Color": {
+                          "Red": 69,
+                          "Green": 194,
+                          "Blue": 23
+                        }
+                      }
+                    ],
+                    "XAxisGrid": {
+                      "Type": "GraphGrid",
+                      "Interval": 10.0,
+                      "LineWidth": 1
+                    },
+                    "YAxisGrid": {
+                      "Type": "GraphGrid",
+                      "Interval": 20.0,
+                      "LineWidth": 1
+                    },
+                    "MinorYAxisGrid": {
+                      "Type": "GraphGrid",
+                      "Interval": 10.0,
+                      "LineWidth": 1
+                    },
+                    "XAxisLabel": {
+                      "Type": "GraphLabel",
+                      "Interval": 20.0,
+                      "DecimalSeparator": "Point",
+                      "TextId": "__SingleUse_42GY",
+                      "TextRotation": "0",
+                      "Position": "Bottom"
+                    },
+                    "YAxisLabel": {
+                      "Type": "GraphLabel",
+                      "Interval": 25.0,
+                      "DecimalSeparator": "Point",
+                      "TextId": "__SingleUse_P24I",
+                      "TextRotation": "0",
+                      "Position": "Left"
+                    }
+                  },
+                  {
+                    "Type": "DynamicGraph",
+                    "Name": "graphCurrent1",
+                    "Y": 14,
+                    "Width": 327,
+                    "Height": 263,
+                    "Visible": false,
+                    "DataSeed": 1219036542,
+                    "NumberOfValues": 100,
+                    "MaxY": 100.0,
+                    "MinY": -100.0,
+                    "Precision": "0.01",
+                    "LastIndex": 99,
+                    "XAxisScale": 1.0,
+                    "LabelSizeBottom": 28,
+                    "LabelSizeLeft": 49,
+                    "LabelSizeRight": 17,
+                    "PaddingTop": 10,
+                    "GraphType": "GraphScroll",
+                    "GraphDrawers": [
+                      {
+                        "Type": "LineDrawer",
+                        "LineWidth": 2,
+                        "FileNameImage": "",
+                        "Color": {
+                          "Red": 196,
+                          "Green": 22,
+                          "Blue": 22
+                        }
+                      }
+                    ],
+                    "XAxisGrid": {
+                      "Type": "GraphGrid",
+                      "Interval": 10.0,
+                      "LineWidth": 1
+                    },
+                    "YAxisGrid": {
+                      "Type": "GraphGrid",
+                      "Interval": 20.0,
+                      "LineWidth": 1
+                    },
+                    "MinorYAxisGrid": {
+                      "Type": "GraphGrid",
+                      "Interval": 10.0,
+                      "LineWidth": 1
+                    },
+                    "XAxisLabel": {
+                      "Type": "GraphLabel",
+                      "Interval": 20.0,
+                      "DecimalSeparator": "Point",
+                      "TextId": "__SingleUse_VTV4",
+                      "TextRotation": "0",
+                      "Position": "Bottom"
+                    },
+                    "YAxisLabel": {
+                      "Type": "GraphLabel",
+                      "Interval": 25.0,
+                      "DecimalSeparator": "Point",
+                      "TextId": "__SingleUse_C2G5",
+                      "TextRotation": "0",
+                      "Position": "Left"
+                    }
+                  },
+                  {
+                    "Type": "FlexButton",
+                    "Name": "buttonShow",
+                    "X": 366,
+                    "Y": 59,
+                    "Width": 75,
+                    "Height": 53,
+                    "ButtonTrigger": {
+                      "Type": "ClickButtonTrigger"
+                    },
+                    "ButtonStyles": [
+                      {
+                        "Type": "TextButtonStyle",
+                        "Y": 13,
+                        "TextId": "__SingleUse_RLGS",
+                        "TextRotation": "0",
+                        "ColorReleased": {
+                          "Red": 10,
+                          "Green": 10,
+                          "Blue": 10
+                        },
+                        "ColorPressed": {
+                          "Red": 10,
+                          "Green": 10,
+                          "Blue": 10
+                        }
+                      },
+                      {
+                        "Type": "BoxWithBorderButtonStyle",
+                        "Width": 75,
+                        "Height": 53,
+                        "LockToFlexButtonSize": true,
+                        "BorderSize": 5,
+                        "ColorReleased": {
+                          "Red": 72,
+                          "Green": 165,
+                          "Blue": 212
+                        },
+                        "ColorPressed": {
+                          "Red": 118,
+                          "Green": 184,
+                          "Blue": 207
+                        },
+                        "ColorBorderReleased": {
+                          "Red": 25,
+                          "Green": 102,
+                          "Blue": 138
+                        },
+                        "ColorBorderPressed": {
+                          "Red": 64,
+                          "Green": 123,
+                          "Blue": 143
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "Type": "FlexButton",
+                    "Name": "buttonHide",
+                    "X": 366,
+                    "Y": 119,
+                    "Width": 75,
+                    "Height": 53,
+                    "ButtonTrigger": {
+                      "Type": "ClickButtonTrigger"
+                    },
+                    "ButtonStyles": [
+                      {
+                        "Type": "TextButtonStyle",
+                        "Y": 13,
+                        "TextId": "__SingleUse_K18G",
+                        "TextRotation": "0",
+                        "ColorReleased": {
+                          "Red": 10,
+                          "Green": 10,
+                          "Blue": 10
+                        },
+                        "ColorPressed": {
+                          "Red": 10,
+                          "Green": 10,
+                          "Blue": 10
+                        }
+                      },
+                      {
+                        "Type": "BoxWithBorderButtonStyle",
+                        "Width": 75,
+                        "Height": 53,
+                        "LockToFlexButtonSize": true,
+                        "BorderSize": 5,
+                        "ColorReleased": {
+                          "Red": 72,
+                          "Green": 165,
+                          "Blue": 212
+                        },
+                        "ColorPressed": {
+                          "Red": 118,
+                          "Green": 184,
+                          "Blue": 207
+                        },
+                        "ColorBorderReleased": {
+                          "Red": 25,
+                          "Green": 102,
+                          "Blue": 138
+                        },
+                        "ColorBorderPressed": {
+                          "Red": 64,
+                          "Green": 123,
+                          "Blue": 143
+                        }
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "Type": "Container",
+                "Name": "Setup",
+                "Width": 480,
+                "Height": 272,
+                "Components": [
+                  {
+                    "Type": "TextArea",
+                    "Name": "IGainText",
+                    "X": 233,
+                    "Y": 63,
+                    "Width": 150,
+                    "Height": 24,
+                    "TextId": "__SingleUse_UV2L",
+                    "TextRotation": "0",
+                    "Wildcard1": {
+                      "TextId": "__SingleUse_DXLK",
+                      "UseBuffer": true,
+                      "BufferSize": 12
+                    }
+                  },
+                  {
+                    "Type": "TextArea",
+                    "Name": "PGainText",
+                    "X": 49,
+                    "Y": 63,
+                    "Width": 130,
+                    "Height": 24,
+                    "TextId": "__SingleUse_4PCD",
+                    "TextRotation": "0",
+                    "Wildcard1": {
+                      "TextId": "__SingleUse_H5LZ",
+                      "UseBuffer": true,
+                      "BufferSize": 12
+                    }
+                  },
+                  {
+                    "Type": "RepeatButton",
+                    "Name": "IGainDOWN",
+                    "X": 226,
+                    "Y": 157,
+                    "Width": 100,
+                    "Height": 36,
+                    "Pressed": "__generated\\alternate_theme_images_widgets_button_regular_height_36_tiny_rounded_pressed.png",
+                    "Released": "__generated\\alternate_theme_images_widgets_button_regular_height_36_tiny_rounded_normal.png",
+                    "Delay": 350,
+                    "Interval": 80,
+                    "Preset": "alternate_theme\\presets\\button\\regular\\height_36\\tiny_rounded_normal.json"
+                  },
+                  {
+                    "Type": "RepeatButton",
+                    "Name": "IGainUP",
+                    "X": 226,
+                    "Y": 112,
+                    "Width": 100,
+                    "Height": 36,
+                    "Pressed": "__generated\\alternate_theme_images_widgets_button_regular_height_36_tiny_rounded_pressed.png",
+                    "Released": "__generated\\alternate_theme_images_widgets_button_regular_height_36_tiny_rounded_normal.png",
+                    "Delay": 350,
+                    "Interval": 80,
+                    "Preset": "alternate_theme\\presets\\button\\regular\\height_36\\tiny_rounded_normal.json"
+                  },
+                  {
+                    "Type": "RepeatButton",
+                    "Name": "PGainDOWN",
+                    "X": 49,
+                    "Y": 157,
+                    "Width": 100,
+                    "Height": 36,
+                    "Pressed": "__generated\\alternate_theme_images_widgets_button_regular_height_36_tiny_rounded_pressed.png",
+                    "Released": "__generated\\alternate_theme_images_widgets_button_regular_height_36_tiny_rounded_normal.png",
+                    "Delay": 350,
+                    "Interval": 80,
+                    "Preset": "alternate_theme\\presets\\button\\regular\\height_36\\tiny_rounded_normal.json"
+                  },
+                  {
+                    "Type": "RepeatButton",
+                    "Name": "PGainUP",
+                    "X": 49,
+                    "Y": 112,
+                    "Width": 100,
+                    "Height": 36,
+                    "Pressed": "__generated\\alternate_theme_images_widgets_button_regular_height_36_tiny_rounded_pressed.png",
+                    "Released": "__generated\\alternate_theme_images_widgets_button_regular_height_36_tiny_rounded_normal.png",
+                    "Delay": 350,
+                    "Interval": 80,
+                    "Preset": "alternate_theme\\presets\\button\\regular\\height_36\\tiny_rounded_normal.json"
+                  },
+                  {
+                    "Type": "Line",
+                    "Name": "line1_2_1",
+                    "X": 94,
+                    "Y": 112,
+                    "Width": 55,
+                    "Height": 36,
+                    "StartX": 5.0,
+                    "StartY": 5.0,
+                    "EndX": 50.0,
+                    "EndY": 30.0,
+                    "LineWidth": 5.0,
+                    "LineEndingStyle": "Round"
+                  },
+                  {
+                    "Type": "Line",
+                    "Name": "line1_1_3_1",
+                    "X": 49,
+                    "Y": 112,
+                    "Width": 55,
+                    "Height": 36,
+                    "StartX": 5.0,
+                    "StartY": 30.0,
+                    "EndX": 50.0,
+                    "EndY": 5.0,
+                    "LineWidth": 5.0,
+                    "LineEndingStyle": "Round"
+                  },
+                  {
+                    "Type": "Line",
+                    "Name": "line1_2_1_1",
+                    "X": 271,
+                    "Y": 112,
+                    "Width": 55,
+                    "Height": 36,
+                    "StartX": 5.0,
+                    "StartY": 5.0,
+                    "EndX": 50.0,
+                    "EndY": 30.0,
+                    "LineWidth": 5.0,
+                    "LineEndingStyle": "Round"
+                  },
+                  {
+                    "Type": "Line",
+                    "Name": "line1_1_3_1_1",
+                    "X": 226,
+                    "Y": 112,
+                    "Width": 55,
+                    "Height": 36,
+                    "StartX": 5.0,
+                    "StartY": 30.0,
+                    "EndX": 50.0,
+                    "EndY": 5.0,
+                    "LineWidth": 5.0,
+                    "LineEndingStyle": "Round"
+                  },
+                  {
+                    "Type": "Line",
+                    "Name": "line1_2_1_1_1",
+                    "X": 226,
+                    "Y": 157,
+                    "Width": 55,
+                    "Height": 36,
+                    "StartX": 5.0,
+                    "StartY": 5.0,
+                    "EndX": 50.0,
+                    "EndY": 30.0,
+                    "LineWidth": 5.0,
+                    "LineEndingStyle": "Round"
+                  },
+                  {
+                    "Type": "Line",
+                    "Name": "line1_1_3_1_1_1",
+                    "X": 271,
+                    "Y": 157,
+                    "Width": 55,
+                    "Height": 36,
+                    "StartX": 5.0,
+                    "StartY": 30.0,
+                    "EndX": 50.0,
+                    "EndY": 5.0,
+                    "LineWidth": 5.0,
+                    "LineEndingStyle": "Round"
+                  },
+                  {
+                    "Type": "Line",
+                    "Name": "line1_2_1_2",
+                    "X": 49,
+                    "Y": 157,
+                    "Width": 55,
+                    "Height": 36,
+                    "StartX": 5.0,
+                    "StartY": 5.0,
+                    "EndX": 50.0,
+                    "EndY": 30.0,
+                    "LineWidth": 5.0,
+                    "LineEndingStyle": "Round"
+                  },
+                  {
+                    "Type": "Line",
+                    "Name": "line1_1_3_1_2",
+                    "X": 94,
+                    "Y": 157,
+                    "Width": 55,
+                    "Height": 36,
+                    "StartX": 5.0,
+                    "StartY": 30.0,
+                    "EndX": 50.0,
+                    "EndY": 5.0,
+                    "LineWidth": 5.0,
+                    "LineEndingStyle": "Round"
+                  }
+                ]
+              },
+              {
+                "Type": "Container",
+                "Name": "M2M",
+                "Width": 480,
+                "Height": 272,
+                "Components": [
+                  {
+                    "Type": "BoxWithBorder",
+                    "Name": "boxIPIdx",
+                    "X": 151,
+                    "Y": 89,
+                    "Width": 15,
+                    "Height": 21,
+                    "Color": {
+                      "Red": 177,
+                      "Green": 177,
+                      "Blue": 177
+                    },
+                    "BorderSize": 2,
+                    "Alpha": 70
+                  },
+                  {
+                    "Type": "FlexButton",
+                    "Name": "IPRight",
+                    "X": 228,
+                    "Y": 175,
+                    "Width": 50,
+                    "Height": 67,
+                    "ButtonTrigger": {
+                      "Type": "ClickButtonTrigger"
+                    },
+                    "ButtonStyles": [
+                      {
+                        "Type": "BoxWithBorderButtonStyle",
+                        "Width": 50,
+                        "Height": 67,
+                        "LockToFlexButtonSize": true,
+                        "BorderSize": 5,
+                        "ColorReleased": {
+                          "Red": 52,
+                          "Green": 94,
+                          "Blue": 116
+                        },
+                        "ColorPressed": {
+                          "Red": 39,
+                          "Green": 71,
+                          "Blue": 87
+                        },
+                        "ColorBorderReleased": {
+                          "Red": 52,
+                          "Green": 94,
+                          "Blue": 116
+                        },
+                        "ColorBorderPressed": {
+                          "Red": 39,
+                          "Green": 71,
+                          "Blue": 87
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "Type": "Line",
+                    "Name": "line1_2_2",
+                    "X": 226,
+                    "Y": 173,
+                    "Width": 55,
+                    "Height": 41,
+                    "StartX": 5.0,
+                    "StartY": 5.0,
+                    "EndX": 48.0,
+                    "EndY": 35.0,
+                    "LineWidth": 5.0,
+                    "LineEndingStyle": "Round"
+                  },
+                  {
+                    "Type": "Line",
+                    "Name": "line1_2_2_4",
+                    "X": 226,
+                    "Y": 208,
+                    "Width": 55,
+                    "Height": 35,
+                    "StartX": 5.0,
+                    "StartY": 30.0,
+                    "EndX": 48.0,
+                    "EndY": 2.0,
+                    "LineWidth": 5.0,
+                    "LineEndingStyle": "Round"
+                  },
+                  {
+                    "Type": "FlexButton",
+                    "Name": "IPLeft",
+                    "X": 58,
+                    "Y": 175,
+                    "Width": 50,
+                    "Height": 67,
+                    "ButtonTrigger": {
+                      "Type": "ClickButtonTrigger"
+                    },
+                    "ButtonStyles": [
+                      {
+                        "Type": "BoxWithBorderButtonStyle",
+                        "Width": 50,
+                        "Height": 67,
+                        "LockToFlexButtonSize": true,
+                        "BorderSize": 5,
+                        "ColorReleased": {
+                          "Red": 52,
+                          "Green": 94,
+                          "Blue": 116
+                        },
+                        "ColorPressed": {
+                          "Red": 39,
+                          "Green": 71,
+                          "Blue": 87
+                        },
+                        "ColorBorderReleased": {
+                          "Red": 52,
+                          "Green": 94,
+                          "Blue": 116
+                        },
+                        "ColorBorderPressed": {
+                          "Red": 39,
+                          "Green": 71,
+                          "Blue": 87
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "Type": "Line",
+                    "Name": "line1_2_2_5",
+                    "X": 57,
+                    "Y": 203,
+                    "Width": 55,
+                    "Height": 41,
+                    "StartX": 5.0,
+                    "StartY": 5.0,
+                    "EndX": 48.0,
+                    "EndY": 35.0,
+                    "LineWidth": 5.0,
+                    "LineEndingStyle": "Round"
+                  },
+                  {
+                    "Type": "Line",
+                    "Name": "line1_2_2_4_1",
+                    "X": 57,
+                    "Y": 176,
+                    "Width": 55,
+                    "Height": 35,
+                    "StartX": 5.0,
+                    "StartY": 30.0,
+                    "EndX": 48.0,
+                    "EndY": 2.0,
+                    "LineWidth": 5.0,
+                    "LineEndingStyle": "Round"
+                  },
+                  {
+                    "Type": "RepeatButton",
+                    "Name": "IPUp",
+                    "X": 117,
+                    "Y": 169,
+                    "Width": 100,
+                    "Height": 36,
+                    "Pressed": "__generated\\alternate_theme_images_widgets_button_regular_height_36_tiny_rounded_pressed.png",
+                    "Released": "__generated\\alternate_theme_images_widgets_button_regular_height_36_tiny_rounded_normal.png",
+                    "Delay": 350,
+                    "Interval": 80,
+                    "Preset": "alternate_theme\\presets\\button\\regular\\height_36\\tiny_rounded_normal.json"
+                  },
+                  {
+                    "Type": "Line",
+                    "Name": "line1_1_3_2",
+                    "X": 117,
+                    "Y": 169,
+                    "Width": 55,
+                    "Height": 36,
+                    "StartX": 5.0,
+                    "StartY": 30.0,
+                    "EndX": 50.0,
+                    "EndY": 5.0,
+                    "LineWidth": 5.0,
+                    "LineEndingStyle": "Round"
+                  },
+                  {
+                    "Type": "Line",
+                    "Name": "line1_2_2_2",
+                    "X": 162,
+                    "Y": 169,
+                    "Width": 55,
+                    "Height": 36,
+                    "StartX": 5.0,
+                    "StartY": 5.0,
+                    "EndX": 50.0,
+                    "EndY": 30.0,
+                    "LineWidth": 5.0,
+                    "LineEndingStyle": "Round"
+                  },
+                  {
+                    "Type": "RepeatButton",
+                    "Name": "IPDown",
+                    "X": 117,
+                    "Y": 211,
+                    "Width": 100,
+                    "Height": 36,
+                    "Pressed": "__generated\\alternate_theme_images_widgets_button_regular_height_36_tiny_rounded_pressed.png",
+                    "Released": "__generated\\alternate_theme_images_widgets_button_regular_height_36_tiny_rounded_normal.png",
+                    "Delay": 350,
+                    "Interval": 80,
+                    "Preset": "alternate_theme\\presets\\button\\regular\\height_36\\tiny_rounded_normal.json"
+                  },
+                  {
+                    "Type": "Line",
+                    "Name": "line1_3_1",
+                    "X": 162,
+                    "Y": 211,
+                    "Width": 55,
+                    "Height": 36,
+                    "StartX": 5.0,
+                    "StartY": 30.0,
+                    "EndX": 50.0,
+                    "EndY": 5.0,
+                    "LineWidth": 5.0,
+                    "LineEndingStyle": "Round"
+                  },
+                  {
+                    "Type": "Line",
+                    "Name": "line1_1_1_1_1",
+                    "X": 117,
+                    "Y": 211,
+                    "Width": 55,
+                    "Height": 36,
+                    "StartX": 5.0,
+                    "StartY": 5.0,
+                    "EndX": 50.0,
+                    "EndY": 30.0,
+                    "LineWidth": 5.0,
+                    "LineEndingStyle": "Round"
+                  },
+                  {
+                    "Type": "TextArea",
+                    "Name": "textIP",
+                    "X": 32,
+                    "Y": 87,
+                    "Width": 298,
+                    "Height": 25,
+                    "TextId": "__SingleUse_B0XF",
+                    "TextRotation": "0",
+                    "Wildcard1": {
+                      "TextId": "__SingleUse_3YM2",
+                      "UseBuffer": true,
+                      "BufferSize": 32
+                    }
+                  }
+                ]
+              },
+              {
+                "Type": "Container",
+                "Name": "Alerts",
+                "Width": 480,
+                "Height": 272,
+                "Components": [
+                  {
+                    "Type": "Box",
+                    "Name": "boxBorderAlert",
+                    "X": 32,
+                    "Y": 68,
+                    "Width": 329,
+                    "Height": 129
+                  },
+                  {
+                    "Type": "Box",
+                    "Name": "boxAlert",
+                    "X": 36,
+                    "Y": 72,
+                    "Width": 321,
+                    "Height": 121,
+                    "Color": {
+                      "Red": 209,
+                      "Green": 208,
+                      "Blue": 50
+                    }
+                  },
+                  {
+                    "Type": "TextArea",
+                    "Name": "alertText",
+                    "X": 49,
+                    "Y": 81,
+                    "Width": 296,
+                    "Height": 103,
+                    "TextId": "__SingleUse_U0O9",
+                    "TextRotation": "0",
+                    "Wildcard1": {
+                      "TextId": "__SingleUse_HXS8",
+                      "UseBuffer": true,
+                      "BufferSize": 50
+                    },
+                    "WideTextAction": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "Type": "FlexButton",
+            "Name": "buttonAlert",
+            "X": 430,
+            "Width": 50,
+            "Height": 50,
+            "ButtonTrigger": {
+              "Type": "ClickButtonTrigger"
+            },
+            "ButtonStyles": [
+              {
+                "Type": "BoxWithBorderButtonStyle",
+                "Width": 50,
+                "Height": 50,
+                "BorderSize": 3,
+                "ColorReleased": {
+                  "Red": 177,
+                  "Green": 177,
+                  "Blue": 177
+                },
+                "ColorPressed": {
+                  "Red": 177,
+                  "Green": 177,
+                  "Blue": 177
+                },
+                "ColorBorderPressed": {
+                  "Red": 255,
+                  "Green": 170
+                }
+              }
+            ]
+          },
+          {
+            "Type": "ScalableImage",
+            "Name": "imageAlert",
+            "X": 428,
+            "Width": 55,
+            "Height": 55,
+            "Visible": false,
+            "Filename": "alert.png",
+            "ScalingAlgorithm": "Nearest-neighbor",
+            "Fadeable": true
+          },
+          {
+            "Type": "Image",
+            "Name": "imageStatus",
+            "X": 330,
+            "Y": 222,
+            "Width": 150,
+            "Height": 50,
+            "RelativeFilename": "statusBar.png"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "statusText",
+            "X": 364,
+            "Y": 235,
+            "Width": 103,
+            "Height": 24,
+            "TextId": "__SingleUse_PBSH",
+            "TextRotation": "0",
+            "Wildcard1": {
+              "TextId": "__SingleUse_VJTO",
+              "UseBuffer": true,
+              "BufferSize": 15
+            }
+          },
+          {
+            "Type": "ButtonWithLabel",
+            "Name": "stopBtn",
+            "X": 391,
+            "Y": 184,
+            "Width": 89,
+            "Height": 41,
+            "Pressed": "stopBtnPressed.png",
+            "Released": "stopBtn.png",
+            "TextId": "__SingleUse_ZNJU",
+            "ReleasedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "PressedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "TextRotation": "0"
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "AlertBlinkOut",
+            "HasCompletedTrigger": true,
+            "Trigger": {
+              "Type": "TriggerOnEveryTick",
+              "TickCount": 60
+            },
+            "Action": {
+              "Type": "ActionFade",
+              "Alpha": 0,
+              "Easing": "Linear",
+              "EasingOption": "In",
+              "Duration": 500,
+              "ActionComponent": "imageAlert"
+            }
+          },
+          {
+            "InteractionName": "AlertblinkIn",
+            "Trigger": {
+              "Type": "TriggerInteractionCompleted",
+              "InteractionToTriggerOn": "AlertBlinkOut"
+            },
+            "Action": {
+              "Type": "ActionFade",
+              "Easing": "Linear",
+              "EasingOption": "In",
+              "Duration": 500,
+              "ActionComponent": "imageAlert"
+            }
+          },
+          {
+            "InteractionName": "AlertClicked",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "buttonAlert"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "goToLast"
+            }
+          },
+          {
+            "InteractionName": "SpeedGoesUP",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "speedUP"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "buttonSpeedUpClicked"
+            }
+          },
+          {
+            "InteractionName": "SpeedGoesDOWN",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "speedDOWN"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "buttonSpeedDownClicked"
+            }
+          },
+          {
+            "InteractionName": "START",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "startBtn"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "buttonStartClicked"
+            }
+          },
+          {
+            "InteractionName": "STOP",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "stopBtn"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "buttonStopClicked"
+            }
+          },
+          {
+            "InteractionName": "PGoesUP",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "PGainUP"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "buttonPUpClicked"
+            }
+          },
+          {
+            "InteractionName": "PGoesDown",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "PGainDOWN"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "buttonPDownClicked"
+            }
+          },
+          {
+            "InteractionName": "UpdateDisplays",
+            "Trigger": {
+              "Type": "TriggerOnEveryTick",
+              "TickCount": 50
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "updateDisplay"
+            }
+          },
+          {
+            "InteractionName": "IGoesUP",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "IGainUP"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "buttonIUpClicked"
+            }
+          },
+          {
+            "InteractionName": "IGoesDown",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "IGainDOWN"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "buttonIDownClicked"
+            }
+          },
+          {
+            "InteractionName": "IPGoesUP",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "IPUp"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "buttonIPUpClicked"
+            }
+          },
+          {
+            "InteractionName": "IPGoesDOWN",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "IPDown"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "buttonIPDownClicked"
+            }
+          },
+          {
+            "InteractionName": "IPGoesLEFT",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "IPLeft"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "buttonIPLeftClicked"
+            }
+          },
+          {
+            "InteractionName": "IPGoesRIGHT",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "IPRight"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "buttonIPRightClicked"
+            }
+          },
+          {
+            "InteractionName": "HardwareButtonClicked",
+            "Trigger": {
+              "Type": "TriggerPhysicalButtonClicked"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "buttonStopClicked"
+            }
+          },
+          {
+            "InteractionName": "HideGraph1",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "buttonHide"
+            },
+            "Action": {
+              "Type": "ActionHide",
+              "ActionComponent": "graphCurrent1"
+            }
+          },
+          {
+            "InteractionName": "HideGraph2",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "buttonHide"
+            },
+            "Action": {
+              "Type": "ActionHide",
+              "ActionComponent": "graphCurrent2"
+            }
+          },
+          {
+            "InteractionName": "ShowGraph1",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "buttonShow"
+            },
+            "Action": {
+              "Type": "ActionShow",
+              "ActionComponent": "graphCurrent1"
+            }
+          },
+          {
+            "InteractionName": "ShowGraph2",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "buttonShow"
+            },
+            "Action": {
+              "Type": "ActionShow",
+              "ActionComponent": "graphCurrent2"
+            }
+          },
+          {
+            "InteractionName": "SliderChanged",
+            "Trigger": {
+              "Type": "TriggerSliderValueConfirmed",
+              "TriggerComponent": "speedSlider"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "speedSliderChanged"
+            }
+          }
+        ]
+      }
+    ],
+    "CustomContainerDefinitions": [],
+    "Name": "PROJECT_HMI",
+    "Resolution": {
+      "Width": 480,
+      "Height": 272
+    },
+    "SelectedColorDepth": 16,
+    "StartupScreenName": "Screen1",
+    "SelectedStartupLanguage": "GB",
+    "TouchGfxPath": "../Middlewares/ST/touchgfx",
+    "UIPath": ".",
+    "AvailableColorDepths": [
+      16
+    ],
+    "AvailableLCDs": {
+      "16": "LCD16bpp"
+    },
+    "AvailableSections": [
+      "ExtFlashSection",
+      "IntFlashSection"
+    ],
+    "AvailableResolutions": [
+      {
+        "Width": 480,
+        "Height": 272
+      }
+    ],
+    "PhysicalButtons": [],
+    "FrameworkFeatures": {
+      "LCD16bpp": {
+        "Id": "LCD16bpp",
+        "IsEnabled": true
+      }
+    },
+    "GenerateAssetsCommand": "make -f simulator/gcc/Makefile assets -j8",
+    "PostGenerateCommand": "touchgfx update_project --project-file=simulator/msvs/Application.vcxproj",
+    "PostGenerateTargetCommand": "touchgfx update_project",
+    "CompileSimulatorCommand": "make -f simulator/gcc/Makefile -j8",
+    "RunSimulatorCommand": "build\\bin\\simulator.exe",
+    "CompileTargetCommand": "make -f ../gcc/Makefile -j8",
+    "FlashTargetCommand": "make -f ../gcc/Makefile flash -j8",
+    "FlashTargetIntCommandOverride": "make -f ../gcc/Makefile intflash -j8",
+    "LandscapeSkinX": 0,
+    "LandscapeSkinY": 0,
+    "PortraitSkinX": 0,
+    "PortraitSkinY": 0,
+    "DisplayOrientation": "Landscape",
+    "Family": "STM32F7",
+    "SubFamily": "STM32F7x6",
+    "Toolchain": "STM32CubeIDE",
+    "Platform": "m7",
+    "ProjectFile": "../STM32F746G_DISCO.ioc",
+    "OptionalComponentsRoot": "../Middlewares/ST/touchgfx_components",
+    "OptionalComponents": [],
+    "AdditionalFeatures": [
+      "CWRVector",
+      "VectorFonts",
+      "Video"
+    ]
+  },
+  "Version": "4.26.0",
+  "CreatedBy": "4.26.0"
+}
